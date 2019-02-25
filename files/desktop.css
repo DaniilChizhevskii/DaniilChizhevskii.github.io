@@ -18,7 +18,7 @@ body:before {
 	right: 0;
 	margin: auto;
 	height: 180px;
-	width: 70%;
+	width: 80%;
 }
 #header {
 	font-family: "Roboto";
@@ -29,8 +29,15 @@ body:before {
 }
 #header:hover {
 	font-family: "Roboto";
-	font-weight: "Bold";
+	font-style: "Bold";
 	font-size: 50;
+	color: white;
+	transition: 1s;
+}
+#about {
+	font-family: "Roboto";
+	font-weight: "Bold";
+	font-size: 25;
 	color: white;
 	transition: 1s;
 }
@@ -45,4 +52,7 @@ body:before {
 	height: 64px;
 	image-rendering: optimizeQuality;
 	transition: 1s;
+}
+.container {
+	height:50px;
 }
